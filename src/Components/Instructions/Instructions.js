@@ -30,7 +30,7 @@ const Instructions = () => {
   ];
   return (
     <div className="container">
-      <h3 className="text-center">Try Saying Something!</h3>
+      <h2 className="text-center">Try Saying Something!</h2>
       {instructions.map((instruction, idx) => {
         return <Instruction  key={idx} instruction={instruction} />;
       })}
