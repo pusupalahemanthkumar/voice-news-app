@@ -5,7 +5,7 @@ import NewsCard from "./NewsCard/NewsCard";
 import Instructions from "../Instructions/Instructions";
 
 // Defining Functional Component Here.
-const NewsCards = ({ articles }) => {
+const NewsCards = ({ articles ,activeArticle}) => {
   if (articles.length === 0) {
     return <Instructions />;
   }
@@ -17,7 +17,7 @@ const NewsCards = ({ articles }) => {
       </div>
       <div className="column-card">
         {articles.map((article, i) => {
-          return <NewsCard key={i} article={article} i={i} />;
+          return <NewsCard key={i} article={article} i={i} activeArticle={activeArticle} />;
         })}
       </div>
     </div>

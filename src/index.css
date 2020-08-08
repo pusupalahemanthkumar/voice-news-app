@@ -28,6 +28,21 @@ body{
   padding: 1rem;
   text-align: center;
 }
+.actions{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.actions h3{
+  font-weight: bolder;
+  color:rgb(158, 158, 245);
+}
+.btn{
+  background: rgba(118,130,183,);
+  text-decoration: none;
+  padding: 0.75rem;
+  cursor: pointer;
+}
 
 /* News Card Styling Here */
 .title{
@@ -51,6 +66,7 @@ body{
   background: #f4f4f4;
   border-radius: 10px;
   margin: 1rem;
+  border: 2px solid #ddd;
 }
 .card .active{
   border-bottom: 5px solid rgb(134, 134, 245);
