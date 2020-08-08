@@ -1,0 +1,17 @@
+.Showcase{
+    max-width: 30%;
+    margin: 1.5rem auto;
+}
+.Showcase img{
+    width: 100%;
+    border-radius: 30px;
+}
+.Showcase h3{
+    color: grey;
+    text-align: center;
+}
+@media (max-width: 768px){
+   .Showcase{
+    max-width: 40%;
+   }
+}
