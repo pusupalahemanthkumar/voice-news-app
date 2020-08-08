@@ -4,7 +4,6 @@ import alanBtn from "@alan-ai/alan-sdk-web";
 
 import Header from "./Components/Header/Header";
 import NewsCards from "./Components/NewsCards/NewsCards";
-import Instructions from "./Components/Instructions/Instructions";
 import { ALAN_KEY } from "./keys/Keys";
 
 // Defining Functional Component Here.

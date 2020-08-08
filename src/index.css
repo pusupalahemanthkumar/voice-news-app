@@ -20,3 +20,60 @@ body{
 .text-center{
   text-align: center;
 }
+.commands{
+  max-width:70%;
+  margin: auto;
+  background: #eee;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* News Card Styling Here */
+.title{
+  text-align: center;
+  margin: 50px 0;
+}
+.title h5{
+  color:var(--primary-color);
+  text-transform: uppercase;
+
+}
+.column-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5rem 0;
+}
+
+.card{
+  width: 30%;
+  background: #f4f4f4;
+  border-radius: 10px;
+  margin: 1rem;
+}
+.card .active{
+  border-bottom: 5px solid rgb(134, 134, 245);
+}
+.card img{
+  width:100%;
+}
+.panel{
+  padding: 5%;
+  box-shadow: 0px 0px 18px -8px rgba(118,130,183,);
+  border-radius: 10px;
+}
+span.date{
+  color: var(--primary-color);
+  font-weight: 700;
+}
+@media (max-width: 769px){
+  .column-card{
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+  }
+  .card{
+    width:85%;
+  }
+}
